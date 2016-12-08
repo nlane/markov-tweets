@@ -1,30 +1,5 @@
-     ,-----.,--.                  ,--. ,---.   ,--.,------.  ,------.
-    '  .--./|  | ,---. ,--.,--. ,-|  || o   \  |  ||  .-.  \ |  .---'
-    |  |    |  || .-. ||  ||  |' .-. |`..'  |  |  ||  |  \  :|  `--, 
-    '  '--'\|  |' '-' ''  ''  '\ `-' | .'  /   |  ||  '--'  /|  `---.
-     `-----'`--' `---'  `----'  `---'  `--'    `--'`-------' `------'
-    ----------------------------------------------------------------- 
+As the first in a series of three projects in a Secure Software Course, this project shows a sufficient understanding of programming in c++. 
 
+Working with one other student, I created an application that, given an input text file, will produce a "tweet" (message in less than 140 characters) in that text's style. Some of the texts we tested it on included the US Constitution and Hamlet.
 
-Hi there! Welcome to Cloud9 IDE!
-
-To get you started with C/C++, we have created some small hello world
-applications and a Makefile.
-
-Have a look at the files, and use the terminal to build them:
-
-    $ make
-    $ ./hello-c-world
-    $ ./hello-cpp-world
-
-We're sure you can take it from there. Go ahead and edit the code, 
-or add some new files. It's all up to you! 
-
-Happy coding!
-The Cloud9 IDE team
-
-
-## Support & Documentation
-
-Visit http://docs.c9.io for support, or to learn more about using Cloud9 IDE. 
-To watch some training videos, visit http://www.youtube.com/user/c9ide
+We used a Markov chain to probablistically build sentences based on the frequencies of the words used in the given text file. 
