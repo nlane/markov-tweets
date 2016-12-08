@@ -2,4 +2,4 @@ As the first in a series of three projects in a Secure Software Course, this pro
 
 Working with one other student, I created an application that, given an input text file, will produce a "tweet" (message in less than 140 characters) in that text's style. Some of the texts we tested it on included the US Constitution and Hamlet.
 
-We used a Markov chain to probablistically build sentences based on the frequencies of the words used in the given text file. 
+We used a Markov chain to probablistically build sentences based on the frequencies of the words used in the given text file. To do this, we used a map stuctures to store frequencies and probabilites of words, and vectors of strings to build sentences. We handle opening and reading text files, gathering the data and storing it in appropriate structures, and probabilistically traversing through the Markov chain to generate a final output.  
